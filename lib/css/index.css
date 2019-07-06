@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #424242;
+  font-size: 20px;
+}
+body a {
+  text-decoration: none;
+  color: inherit;
+}
+body p {
+  margin: 3px 0;
+  padding: 2px 0;
+}
+body section {
+  margin: 5px;
+  padding: 3px;
+}
+.header {
+  background-color: cornsilk;
+}
+.header h1 {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-weight: normal;
+  font-size: 0.9rem;
+  width: 100%;
+  text-align: center;
+}
+.first_view img {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  max-height: 768px;
+  max-width: 1024px;
+}
+.infomation {
+  border-bottom: 1px solid silver;
+}
+.infomation i.tel {
+  color: cornflowerblue;
+}
