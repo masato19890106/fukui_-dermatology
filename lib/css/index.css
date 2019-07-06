@@ -63,6 +63,9 @@ body section {
 .trobles li {
   padding-top: 5px;
 }
+.time_schedule {
+  border-bottom: 1px solid silver;
+}
 .time_schedule i {
   color: darkorange;
 }
@@ -75,4 +78,36 @@ body section {
   width: 31%;
   margin: 0;
   border: 1px solid silver;
+}
+.director {
+  border-bottom: 1px solid silver;
+}
+.director img {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  max-height: 768px;
+  max-width: 1024px;
+}
+.map h3 i {
+  color: firebrick;
+}
+.map .googlemap {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.map .googlemap iframe {
+  width: 100%;
+}
+.map li {
+  padding-top: 5px;
+}
+.map .bus i {
+  color: cornflowerblue;
+}
+.map .meitetsu-bus i {
+  color: red;
+}
+.map .kintetsu i {
+  color: orange;
 }
