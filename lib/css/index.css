@@ -1,8 +1,10 @@
+html {
+  font-size: 20px;
+}
 body {
   margin: 0;
   padding: 0;
   color: #424242;
-  font-size: 20px;
 }
 body a {
   text-decoration: none;
@@ -12,6 +14,14 @@ body p {
   margin: 3px 0;
   padding: 2px 0;
 }
+body h1,
+body h2,
+body h3 {
+  font-weight: normal;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
 body section {
   margin: 5px;
   padding: 3px;
@@ -20,10 +30,7 @@ body section {
   background-color: cornsilk;
 }
 .header h1 {
-  margin: 0;
-  padding: 0;
   display: inline-block;
-  font-weight: normal;
   font-size: 0.9rem;
   width: 100%;
   text-align: center;
@@ -40,4 +47,32 @@ body section {
 }
 .infomation i.tel {
   color: cornflowerblue;
+}
+.about {
+  border-bottom: 1px solid silver;
+}
+.about p {
+  margin: 7px 5px;
+}
+.trobles {
+  border-bottom: 1px solid silver;
+}
+.trobles i {
+  color: dodgerblue;
+}
+.trobles li {
+  padding-top: 5px;
+}
+.time_schedule i {
+  color: darkorange;
+}
+.time_schedule .schedule_table {
+  display: flex;
+  flex-wrap: wrap;
+}
+.time_schedule .schedule_table .item {
+  text-align: center;
+  width: 31%;
+  margin: 0;
+  border: 1px solid silver;
 }
