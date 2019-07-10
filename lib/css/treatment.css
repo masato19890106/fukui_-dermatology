@@ -1,0 +1,30 @@
+body section.treatment {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid silver;
+}
+body section.border {
+  border: 1px solid silver;
+}
+body section h3 {
+  margin-top: 1rem;
+}
+body section h4 {
+  padding-top: 0.7rem;
+}
+body section ul {
+  list-style: none;
+  padding-left: 5px;
+}
+body section ul li.list-item {
+  padding: 0.3em 0;
+  text-decoration: none;
+  color: #1a5d9a;
+  border-bottom: 1px solid;
+}
+body section .darkblue {
+  color: darkblue;
+}
+body section#shimi ul {
+  padding: 0 0.5rem;
+}
