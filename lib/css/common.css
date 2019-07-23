@@ -45,6 +45,7 @@ body .button:active {
 body .blockquote {
   border-left: solid 3px #ff7c5c;
   padding-left: 0.4rem;
+  background-color: #f1efef;
 }
 body .center {
   text-align: center;

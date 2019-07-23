@@ -28,3 +28,7 @@ body section .darkblue {
 body section#shimi ul {
   padding: 0 0.5rem;
 }
+body section#datsumou ul li .list-head {
+  display: inline-block;
+  width: 115px;
+}
