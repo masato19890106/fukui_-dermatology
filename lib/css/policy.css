@@ -1,6 +1,6 @@
-body section h1 {
+body section h1,
+body section h2 {
   font-size: 1.2rem;
-  padding-bottom: 5px;
 }
 body section .topic {
   list-style: none;

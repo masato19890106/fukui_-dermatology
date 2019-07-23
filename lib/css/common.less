@@ -1,3 +1,6 @@
+@wide-screen-pc: ~'(min-width: 1024px)';
+@wide-screen-sp: ~'(max-width: 1023px)';
+
 html {
     font-size: 18px;
 
@@ -7,9 +10,26 @@ html {
 
 body {
 
-    margin: 0;
     padding:0;
     color:#424242;
+
+    @media @wide-screen-pc {
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    @media @wide-screen-sp {
+        margin: 0;
+        width: 100%;
+    }
+
+    .header {
+        background-color: cornsilk;
+        display: inline-block;
+        font-size: 0.9rem;
+        width: 100%;
+        text-align: center;
+    }
 
     a {
         text-decoration: none;
@@ -55,6 +75,7 @@ body {
       }
 
       .center {
+          margin: 7px 0;
           text-align: center;
       }
 }

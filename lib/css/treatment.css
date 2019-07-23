@@ -6,6 +6,10 @@ body section.treatment {
 body section.border {
   border: 1px solid silver;
 }
+body section h1,
+body section h2 {
+  font-size: 1.2rem;
+}
 body section h3 {
   margin-top: 1rem;
 }

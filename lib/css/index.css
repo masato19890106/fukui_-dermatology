@@ -1,11 +1,5 @@
-.header {
-  background-color: cornsilk;
-}
 .header h1 {
-  display: inline-block;
   font-size: 0.9rem;
-  width: 100%;
-  text-align: center;
 }
 .first_view img {
   width: 100%;

@@ -3,9 +3,27 @@ html {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "游ゴシック Medium", YuGothic, YuGothicM, "Hiragino Kaku Gothic ProN", sans-serif;
 }
 body {
-  margin: 0;
   padding: 0;
   color: #424242;
+}
+@media (min-width: 1024px) {
+  body {
+    margin: 0 auto;
+    width: 60%;
+  }
+}
+@media (max-width: 1023px) {
+  body {
+    margin: 0;
+    width: 100%;
+  }
+}
+body .header {
+  background-color: cornsilk;
+  display: inline-block;
+  font-size: 0.9rem;
+  width: 100%;
+  text-align: center;
 }
 body a {
   text-decoration: none;
@@ -48,6 +66,7 @@ body .blockquote {
   background-color: #f1efef;
 }
 body .center {
+  margin: 7px 0;
   text-align: center;
 }
 nav {
