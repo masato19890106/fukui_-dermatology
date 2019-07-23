@@ -1,0 +1,14 @@
+body section h1 {
+  font-size: 1.2rem;
+  padding-bottom: 5px;
+}
+body section .topic {
+  list-style: none;
+  padding-left: 5px;
+}
+body section .topic li {
+  padding: 0.3em 0;
+  text-decoration: none;
+  color: #1a5d9a;
+  border-bottom: 1px solid;
+}
