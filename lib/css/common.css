@@ -46,6 +46,9 @@ body section {
   margin: 5px;
   padding: 3px;
 }
+body section .border-btm {
+  border-bottom: 1px solid silver;
+}
 body .button {
   display: inline-block;
   padding: 0.5em 1em;
@@ -68,6 +71,9 @@ body .blockquote {
 body .center {
   margin: 7px 0;
   text-align: center;
+}
+body .darkblue {
+  color: darkblue;
 }
 nav {
   display: flex;
