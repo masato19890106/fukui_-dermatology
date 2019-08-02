@@ -51,3 +51,10 @@ body section#hokuro img {
   max-width: 300px;
   display: block;
 }
+body section#ipl .img-caution,
+body section#laser .img-caution,
+body section#hokuro .img-caution {
+  text-align: center;
+  font-size: .8rem;
+  color: #727272;
+}
