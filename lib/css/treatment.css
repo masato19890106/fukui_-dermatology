@@ -36,3 +36,18 @@ body section#datsumou ul li .list-head {
   display: inline-block;
   width: 115px;
 }
+@media (min-width: 1024px) {
+  body section#ipl .flex-content,
+  body section#laser .flex-content,
+  body section#hokuro .flex-content {
+    display: flex;
+  }
+}
+body section#ipl img,
+body section#laser img,
+body section#hokuro img {
+  margin: .5rem auto;
+  padding: 0 1rem;
+  max-width: 300px;
+  display: block;
+}
