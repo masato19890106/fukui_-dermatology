@@ -43,7 +43,7 @@ body h4 {
   padding: 0;
 }
 body section {
-  margin: 5px;
+  margin: 8px 5px;
   padding: 3px;
 }
 body section .border-btm {
@@ -74,6 +74,29 @@ body .center {
 }
 body .darkblue {
   color: darkblue;
+}
+body #page-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+body #page-top a {
+  display: block;
+  background: #666;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+}
+body #page-top a:hover {
+  background: #999;
+  text-decoration: none;
+}
+body #page-top a i {
+  font-size: 1.8rem;
+  padding: 0.5rem 0;
 }
 nav {
   display: flex;

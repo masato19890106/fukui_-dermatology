@@ -49,7 +49,7 @@ body {
     }
 
     section {
-        margin: 5px;
+        margin: 8px 5px;
         padding:3px;
 
         .border-btm {
@@ -85,6 +85,33 @@ body {
 
       .darkblue {
         color:darkblue;
+    }
+
+    #page-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+
+        a {
+            display: block;
+            background: #666;
+            color: #fff;
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 30px;
+
+            &:hover {
+                background: #999;
+                text-decoration: none;
+            }
+
+            i {
+                font-size: 1.8rem;
+                padding:0.5rem 0;
+            }
+        }
     }
 }
 
