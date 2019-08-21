@@ -30,7 +30,7 @@ body a {
   color: inherit;
 }
 body p {
-  margin: 3px 0;
+  margin: 5px 0;
   padding: 2px 0;
 }
 body h1,
@@ -97,6 +97,11 @@ body #page-top a:hover {
 body #page-top a i {
   font-size: 1.8rem;
   padding: 0.5rem 0;
+}
+body .fl {
+  font-size: 1.5em;
+  width: fit-content;
+  padding-bottom: 5px;
 }
 nav {
   display: flex;
