@@ -20,6 +20,9 @@
 .about p {
   margin: 14px 5px;
 }
+.feature {
+  border-bottom: 1px solid silver;
+}
 .trobles {
   border-bottom: 1px solid silver;
 }
@@ -85,4 +88,8 @@
 }
 .twitter-info h2 i {
   color: #ef6d56;
+}
+.head {
+  padding-left: 7px;
+  border-left: 4px solid #ff7c5c;
 }
