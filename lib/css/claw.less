@@ -1,3 +1,5 @@
+@wide-screen-pc: ~'(min-width: 1024px)';
+@wide-screen-sp: ~'(max-width: 1023px)';
 
 .vho-treatment-process {
     display: flex;
@@ -6,6 +8,13 @@
 
     img {
         border-radius: 2px;
+        
+        @media @wide-screen-pc {
+        }     
+        
+        @media @wide-screen-sp {
+            width: 100%;
+        }
     }
 
 }
